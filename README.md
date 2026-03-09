@@ -4,7 +4,7 @@ Developers: Jade Someda and Tanya Carillo
 This final project is an implementation of a Smart Monitoring System for Industrial Sites.\
 In the case a hazard is detected a message will be sent from the Jetson Nano to Gmail, via Cloud Messaging Services.\
 
-## Architecture & Design/Implementation:\
+## Architecture & Design/Implementation:
 Jetson Nano Developer\
 Web-Camera\
 Phone (iOS/Android)\
@@ -15,7 +15,7 @@ Messaging Pattern - Event-Driven\
 Communcation Protocal -  Simple Mail Transfer Protocol(SMTP)\
 Jetson Inference: Detectnet -  AI/Object Detection\
 
-## Training Model:\
+## Training Model:
 Framework: Pytorch\
 Architecture: SSD (Single Shot Detector)\
 Neural Network: Convolutional Neural Network(CNN)\
