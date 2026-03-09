@@ -44,3 +44,8 @@ We saw the versatility of this device, since current Safety Surveillance is ofte
 \
 \
 Overall, this project was interesting and we learned quite a lot about AI/ML training and working with Edge Devices.
+
+# Demo
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+\
+\
