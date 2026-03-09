@@ -41,3 +41,5 @@ RoboFlow Universide for our Dataset (Image Format: Pascal VOC XML)
 For instance: If a worker was detected not wearing a helmet, then a message regarding this hazard was sent.\
 
 We saw the versatility of this device, since current Safety Survelliance is often reliant upon human error. Watchman watching various camera's or up to the sueprvision of upper-management faculty who can only see so much at once. Our vision for this project was that multiple Smart Montiers can be placed on site, and be the 'extra-pair' of eyes. Once a hazard is dected the manager can simply see the notification and proceed as neccesary.\
+
+Overall this project intersting and we learned quite a lot about AI/ML training and in working with Edge Devices. 
