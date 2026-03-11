@@ -1,0 +1,42 @@
+<annotation>
+	<folder></folder>
+	<filename>istockphoto-1405273709-1024x1024_jpg.rf.07ed867379aca8427e9a0837e954d261.jpg</filename>
+	<path>istockphoto-1405273709-1024x1024_jpg.rf.07ed867379aca8427e9a0837e954d261.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>683</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mobile</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>463</xmin>
+			<xmax>533</xmax>
+			<ymin>419</ymin>
+			<ymax>491</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>People Wearing Safety Jackets</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>209</xmin>
+			<xmax>501</xmax>
+			<ymin>384</ymin>
+			<ymax>679</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>

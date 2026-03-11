@@ -1,0 +1,29 @@
+<annotation>
+	<folder></folder>
+	<filename>Screenshot-2024-11-27-113627_png.rf.e77d2b9b3cd6d2b4926a3d695eb060bd.jpg</filename>
+	<path>Screenshot-2024-11-27-113627_png.rf.e77d2b9b3cd6d2b4926a3d695eb060bd.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>775</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mobile</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>153</xmin>
+			<xmax>177</xmax>
+			<ymin>411</ymin>
+			<ymax>427</ymax>
+		</bndbox>
+	</object>
+	<metadata>
+	</metadata>
+</annotation>
