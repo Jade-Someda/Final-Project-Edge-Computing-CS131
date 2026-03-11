@@ -12,7 +12,10 @@ Google Cloud Service (Workspace - Gmail)\
 Messaging Pattern - Event-Driven\
 Communication Protocol - Simple Mail Transfer Protocol (SMTP)\
 Jetson Inference: DetectNet - AI/Object Detection\
-Swap Space - Virtualize memory to have more space to store Epochs.
+Swap Space - Virtualize memory to have more space to store Epochs.\
+
+### Design Reasoning: 
+While Wireless Communcation is the main power consumer for Edge-Devices, it is neccesary for our device to use Wireless Communication/Cloud services. Otherwise, without wireless communcation the manager would have to constantly be at the site of the Jetson-Nano which defeats the System's purpose of convinience(the manager does not need to be there). 
 
 ## Training Model:
 Framework: PyTorch\
@@ -29,7 +32,7 @@ Roboflow Universe for our Dataset (Image Format: Pascal VOC XML)
 # Challenges
 * 5-year-old SD card led to significant training time, taking twice as long as anticipated.
 * We had not trained a model before and had to learn quite a lot, which slowed our process. (Organizing the correct directories, choosing a good dataset, ensuring 1:1 ratio between XML/JPEG files, etc.)
-* Time Constraint: Completed this in 3 weeks.
+* Time Constraint: Completed this in 3 weeks. ~50 Hours of Time Spent on this project. 
 * We planned to use Push-Notification/Event-Driven Messaging Pattern with Firebase (HTTPS), but we were unable to generate a token (used to communicate between the cloud and phone), so we switched to SMTP (i.e. using Gmail as the messaging protocol).
 * We were running low on RAM and Disk Space. Our Disk Space was so low that the Edge Device's ability to keep track of time was off, and our CPU was so overloaded/RAM extremely low that our mouse stopped being able to click icons on the screen. We had to delete unnecessary files to resolve the Disk Space issue, and we virtualized RAM memory by using Swap Space to resolve the low RAM.
 
