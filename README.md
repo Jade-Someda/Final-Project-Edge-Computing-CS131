@@ -70,6 +70,7 @@ Overall, this project was interesting and we learned quite a lot about AI/ML tra
 Link to the video demo: https://youtu.be/mRhUXtfdJh4 
 
 ## Detection in Action
+
 ![Two Workers Detection](images/twoWorkers.png)
 ![Helmet Detection](images/worker_helmet_machine.png)
 ![Jacket Detection](images/worker_jacker_machine.png)
