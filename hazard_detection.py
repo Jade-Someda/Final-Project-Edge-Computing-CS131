@@ -12,9 +12,9 @@ import time
 # to the cloud to then send a specific message/gmail to the user.  
 
 # Email setup
-SENDER_EMAIL = "sailorgalaxay9@gmail.com"  # REPLACE with your Gmail
-SENDER_PASSWORD = "vduwilcockvxugkh"  # REPLACE with Gmail App Password
-RECIPIENT_EMAIL = "sailorgalaxay9@gmail.com"  # REPLACE with email on your phone
+SENDER_EMAIL = "[insert_email_address]@gmail.com"  # REPLACE with your Gmail
+SENDER_PASSWORD = "[insert_16_character_password]"  # REPLACE with Gmail App Password
+RECIPIENT_EMAIL = "[insert_email_address]@gmail.com"  # REPLACE with email on your phone
 
 # Cooldown setup
 last_alert_time = {}
