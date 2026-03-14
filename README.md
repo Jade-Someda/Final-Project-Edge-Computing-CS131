@@ -71,11 +71,11 @@ Link to the video demo: https://youtu.be/mRhUXtfdJh4
 
 ## Detection in Action:
 <img src="images/twoWorkers.png" alt="Two Workers Detection" width="38%"> 
-<img src="images/worker_helmet_machine.png" alt="Helmet Detection" width="35%"> <img src="images/worker_jacker_machine.png" alt="Jacket Detection" width="35%">
+<img src="images/worker_helmet_machine.png" alt="Helmet Detection" width="35%"><img src="images/worker_jacker_machine.png" alt="Jacket Detection" width="35%">
 
 ## Alert Notification:
 <img src="images/list_of_emails.jpg" alt="Email List Alert" width="35%">
-<img src="images/worker_email.jpg" alt="Helmet Email Alert" width="30%"> <img src="images/jacket_email.jpg" alt="Jacket Email Alert" width="30%">
+<img src="images/worker_email.jpg" alt="Helmet Email Alert" width="30%"><img src="images/jacket_email.jpg" alt="Jacket Email Alert" width="30%">
 
 
 
