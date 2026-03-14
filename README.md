@@ -38,7 +38,7 @@ Roboflow Universe for our Dataset (Image Format: Pascal VOC XML)
 
 ### General Workflow
 * Set up Docker environment. (Build Dockerfile, build an image with all the neccesary packages(firebase admin, detectnet,etc).
-* * Make sure the Dockerfile is so that the container can be resumed and not deleted each time you closed out. Otherwise you will need to keep donwnloading packages over and over/progress is not saved. We made this mistake! 
+   * Make sure the Dockerfile is so that the container can be resumed and not deleted each time you closed out. Otherwise you will need to keep donwnloading packages over and over/progress is not saved. We made this mistake! 
 * Get Diverse & Large Dataset (Pre-Labeled)
 * (If you sourced multiple datasets) Compile them into one dataset.
 * Verify both XML & JPEG files are not corrupted
