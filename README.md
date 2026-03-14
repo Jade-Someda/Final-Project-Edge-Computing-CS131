@@ -70,7 +70,7 @@ Overall, this project was interesting and we learned quite a lot about AI/ML tra
 Link to the video demo: https://youtu.be/mRhUXtfdJh4 
 
 ## Detection in Action:
-<img src="images/twoWorkers.png" alt="Two Workers Detection" width="38%">
+<img src="images/twoWorkers.png" alt="Two Workers Detection" width="50%">
 
 | | |
 |---|---|
