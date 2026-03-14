@@ -37,8 +37,22 @@ Roboflow Universe for our Dataset (Image Format: Pascal VOC XML)
 * We were running low on RAM and Disk Space. Our Disk Space was so low that the Edge Device's ability to keep track of time was off, and our CPU was so overloaded/RAM extremely low that our mouse stopped being able to click icons on the screen. We had to delete unnecessary files to resolve the Disk Space issue, and we virtualized RAM memory by using Swap Space to resolve the low RAM.
 
 ### General Workflow
-<add_description>
+* Set up Docker environment. (Build Dockerfile, build an image with all the neccesary packages(firebase admin, detectnet,etc).
+* * Make sure the Dockerfile is so that the container can be resumed and not deleted each time you closed out. Otherwise you will need to keep donwnloading packages over and over/progress is not saved. We made this mistake! 
+* Get Diverse & Large Dataset (Pre-Labeled)
+* (If you sourced multiple datasets) Compile them into one dataset.
+* Verify both XML & JPEG files are not corrupted
+* Verify there is a 1:1 ratio betwen XML/JPEG files.
+* Create Directories to organize files. Seperate between JPEG/XML.
+* Find out all the labels across all files and compile them all into one labels.txt. Labels are the names of the specific objects you want the model to identify. 
+* Create a train file, that feeds the dataset into the jetson-inference module to learn. And make sure it saves ephocs at specific directory.
+* Execute train file. Train the model. 
+* Create Trigger File. (the middleman that calls detectnet, the cloud services, generates the custom messages ).
+* Generate token and place that in trigger file(if using Firebase/HTTPS; not needed for STMP/ex. gmail)
+* Run the Smart System.
+* Done!
 
+  
 # Reflection:
 We successfully were able to train a model with a dataset of 500+ images, with 40 Epochs and a batch size of 2. Our Webcamera was our vision system, and the Jetson Nano was able to detect our labels with the training. Once a label was detected, the codebase would trigger communication to Google Cloud, which would then send a notification/message using Gmail and the message was viewd on a phone. 
 \
